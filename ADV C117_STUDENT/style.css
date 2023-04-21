@@ -1,0 +1,39 @@
+body{
+    background-image:url("aura.jpg");
+    background-size: 50%;
+}
+h1{
+    color: #C8A2C8;
+    font-size: 70;
+    background-color: white;
+}
+p{
+    font-size: 50;
+    color: white;
+}
+
+#clear{
+    width: 200px;
+    color: rgba(0, 0, 0, 1);
+    width: 370px;
+    height: 70px;
+    font-size: 40;
+    background-color: #C8A2C8;
+}
+#show_sketch{
+    float: right;
+}
+
+canvas{
+    border: 8px solid pink;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 8s;
+    animation-iteration-count: infinites;
+}
+
+@keyframes example{
+    from{box-shadow: 2px 2px 40px rgb(161, 161, 253)}
+    to{box-shadow: 4px 4px 50px rgb(174, 130, 240);}
+}
+
